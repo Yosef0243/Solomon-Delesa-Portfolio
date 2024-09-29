@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solomon Delessa</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+   <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+             <li><a href="index.html">HOME</a></li>
+             <li><a href="about.html">ABOUT</a></li>
+             <li><a href="gallery.html">GALLERY</a></li>
+             <li><a href="blog.html">BLOG</a></li>
+             <li><a href="partnership.html">PARTNERSHIP</a></li>
+             <li><a href="contact.html">CONTACT</a></li>
+             
+                </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Professional Tutoring and Personalized Home Learning Solutions</h1>
+        </div>
+   </section>
+
+
+<section class="cta">
+    <h1>Achieve Academic Excellence with <br> Home Study and Professional Tutors</h1>
+</section>
+    
+
+
+
+
+
+  <!-- Feature Section -->
+  <section class="bg-gray-100 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">Why Choose Us?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded p-8 shadow">
+          <div class="text-blue-500 text-4xl mb-4">
+            <i class="fas fa-chalkboard-teacher"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-4">Highly Qualified Tutors</h3>
+          <p class="text-gray-600">Our tutors are experts in their respective fields, holding advanced degrees and professional certifications.</p>
+        </div>
+        <div class="bg-white rounded p-8 shadow">
+          <div class="text-blue-500 text-4xl mb-4">
+            <i class="fas fa-laptop-house"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-4">Convenient Home Sessions</h3>
+          <p class="text-gray-600">No need to travel. Our tutors come to your home, providing a comfortable learning environment.</p>
+        </div>
+        <div class="bg-white rounded p-8 shadow">
+          <div class="text-blue-500 text-4xl mb-4">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-4">Achieve Academic Success</h3>
+          <p class="text-gray-600">Our personalized approach ensures students reach their full potential and excel in their academics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<section class="boo">
+    <h4>ABOUT US</h4>
+    <p>Jimma institiute of technology AI CENTER<br>
+        JIT AI Center is an organization specializing in artificial intelligence training models, website development, and hardware development.
+    </p>
+</section>
+
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0";
+    } 
+    function hidemenu(){
+        navlinks.style.right = "-260px";
+    } 
+
+</script>
+
+</body>
+</html>
+
+
+
+
